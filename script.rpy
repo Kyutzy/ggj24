@@ -21,15 +21,14 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show eileen happy at right
 
     # These display lines of dialogue.
 
     pao "eu sou um pão e voce?"
     bolo "eu sou um bolo"
     pao "POR QUE VOCE NAO VAI SE FUDER SEU VIADO DE MERDA EU TO FALANDO SERIO SEU BOSTA VAI TOMAR NO SEU CU"
-    show bolo sad
-     
+    show bolo sad at left 
     bolo "ok :c"
 
 
