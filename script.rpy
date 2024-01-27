@@ -4,7 +4,8 @@
 # name of the character.
 
 define e = Character("Eileen")
-
+define pao = Character("PAO")
+define bolo = Character('bolo')
 
 # The game starts here.
 
@@ -24,9 +25,13 @@ label start:
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    pao "eu sou um pão e voce?"
+    bolo "eu sou um bolo"
+    pao "POR QUE VOCE NAO VAI SE FUDER SEU VIADO DE MERDA EU TO FALANDO SERIO SEU BOSTA VAI TOMAR NO SEU CU"
+    show bolo sad
+     
+    bolo "ok :c"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
 
     # This ends the game.
 
