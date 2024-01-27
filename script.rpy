@@ -38,17 +38,21 @@ label start:
 
     menu:
         "MATAR O BOLO?":
-            hide bolo sad
-            narrador "voce matou o bolo"
-            pao "FINALMENTE ELE MORREU EU ODIAVA AQUELE CARA"
+            jump testePANETONE
+
         "MATAR O PAO?":
             hide eileen happy
             bolo "NAAAAAAAAAAAAAAAAAAAAAAAAAAAO PAAAAAAAAAAAAAO"
             show bolo sad at center
             bolo "eu vou me matar"
             hide bolo sad
-    narrador "e assim acaba a nossa historia, todo mundo morreu, agora vai fazer algo útil com a sua vida"
 
+
+    transform midleft:
+        xalign 0.33 yalign 1.
     # This ends the game.
-
+    label testePANETONE:
+        scene bg room
+        show panetone happy at midleft
+        bolo "oi"
     return
