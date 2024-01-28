@@ -9,7 +9,7 @@ define narrador = Character("Narrador")
 
 
 label start:
-    $ pontuacao = 0
+    $ testeVariavel = 0
     $ testeLista = []
 
     # ================================== #
@@ -24,8 +24,7 @@ label start:
     hide pao_de_viagem scared
     
     show pizza scared at left
-    pizza "NÃÃÃÃÃÃOOOOOO, eu sou lindo demais para morrer
-"
+    pizza "NÃÃÃÃÃÃOOOOOO, eu sou lindo demais para morrer"
     hide pizza scared
 
     show panetone happy at left
@@ -43,7 +42,7 @@ label start:
     narrador "As luzes se acendem. A MASSA se vê dentro de um espaço amplo, cercado de paredes de metal. O fogo está à espreita, aquecendo o ambiente cada vez mais."
 
     show pizza happy at left
-    pizza "Então é aqui que vou pegar um ótimo dourado! Mal posso esperar"
+    pizza "Então é aqui que vou pegar um ótimo dourado! Mal posso esperar"1
 
     show pao_de_viagem sad at right
     pao_de_viagem "Não é assim que funciona… aqui é nosso fim. Não tem mais para onde ir"
@@ -83,6 +82,8 @@ label start:
 
     show panetone laughing at right
     panetone "É isso aí! Se não vou sovar vocês!"
+
+    show 
     pizza "Se for sovar eu quero ajudar!"
 
     narrador "(Silêncio)"
@@ -127,7 +128,7 @@ label start:
     show pizza confident at right
     pizza "Não, porque nunca vou morrer! AH É! 37 jogos sem nenhuma derrota! segura o pai."
     
-    show massa 
+    show massa    
     massa "Do que você está falando? De que jogos?"
 
     pizza "É isso aí pô, Só vitória atrás de vitória, segue o líder. Saindo dessa quem topa uma cerva? To louco pra festar ao som de mc bread! Mostrar como se faz nas quebrada família"
@@ -403,10 +404,6 @@ label start:
     #              FINAIS                #
     # ================================== #
     # ================================== #
-    if pontuacao >= 0:
-        jump finalFesta
-    else:
-        jump finalCalmo
 
 
 
