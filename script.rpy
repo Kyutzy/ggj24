@@ -10,6 +10,13 @@ define narrador = Character("Narrador")
 define back = "bgmain.png"
 
 label start:
+    window hide
+    show inicio
+    play music "bgm.mp3" 
+    pause
+    jump game
+
+label game:
     
     transform cookie_meio:
         xalign 0.5 yalign 0.70 zoom 0.2
@@ -52,7 +59,7 @@ label start:
     #              INICIO                #
     # ================================== #
     scene bgmain
-    play music "teste.mp3" 
+
     
     narrador "Pou, um som estrodoso. Lentamente, o mundo parece se mover em uma direção. Ao fundo, um barulho do crepitar das chamas pode ser ouvido. Está tudo muito escuro."
 
