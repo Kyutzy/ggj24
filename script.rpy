@@ -24,8 +24,7 @@ label start:
     hide pao_de_viagem scared
     
     show pizza scared at left
-    pizza "NÃÃÃÃÃÃOOOOOO, eu sou lindo demais para morrer
-"
+    pizza "NÃÃÃÃÃÃOOOOOO, eu sou lindo demais para morrer"
     hide pizza scared
 
     show panetone happy at left
@@ -84,7 +83,7 @@ label start:
     show panetone laughing at right
     panetone "É isso aí! Se não vou sovar vocês!"
 
-
+    show 
     pizza "Se for sovar eu quero ajudar!"
 
     narrador "(Silêncio)"
